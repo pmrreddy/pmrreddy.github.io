@@ -6,45 +6,47 @@
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.3/angular-route.min.js">   </script>  
   <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </head>
 <body ng-app="paramweb">
   <div ng-controller="hpController" ng-cloak class="ng-cloak" class="container-fluid">
 
-<div class="navbar-header" >
+    <div class="navbar-header" >
 
-        <a class="navbar-brand" href="#"> Parameswara Reddy </a>
-        <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBar">
-          <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar bar1"></span>
-                      <span class="icon-bar bar2"></span>
-                      <span class="icon-bar bar3"></span>
-        </button>
-    </div>
+      <a class="navbar-brand" href="#"> Parameswara Reddy </a>
+      <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar bar1"></span>
+        <span class="icon-bar bar2"></span>
+        <span class="icon-bar bar3"></span>
+      </button>
 
-     <div class="collapse navbar-collapse" id="navBar">
-            <nav>
-                <ul>
-                  <li><a href="#/">Home</a></li>
-                  <li><a href="#/about">About us</a></li>
-                </ul>
-            </nav>
+      <div class="collapse navbar-collapse" id="navBar">
+        <nav>
+          <ul>
+            <li><a href="#/">Home</a></li>
+            <li><a href="#/about">About us</a></li>
+          </ul>
+        </nav>
       </div>
+    </div> <!-- Navbar Header -->
 
-<div class="container-fluid">
-<div class="row">
-    <!-- Left Column -->
-    <div class="col-sm-1" style="background-color:lavender;">.col-sm-1 </div> <!--/Left Column-->
-<!-- Center Column -->
-    <div class="col-sm-9" style="background-color:lavenderblush;"> <div ng-view> </div> </div><!--/Center Column-->
- <!-- Right Column -->
-    <div class="col-sm-2" style="background-color:lavender;">.col-sm-2</div>
-</div><!--/Right Column -->
+    
 
-</div> 
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Left Column -->
+        <div class="col-sm-1" style="background-color:lavender;">.col-sm-1 </div> <!--/Left Column-->
+        <!-- Center Column -->
+        <div class="col-sm-9" style="background-color:lavenderblush;"> <div ng-view> </div> </div><!--/Center Column-->
+        <!-- Right Column -->
+        <div class="col-sm-2" style="background-color:lavender;">.col-sm-2</div>
+      </div><!--/Right Column -->
+
+    </div> 
   </div><!--/container-fluid-->
-    </div>
+</div>
 </body>
 </html>

@@ -13,9 +13,10 @@
 <body ng-app="paramweb">
   <div ng-controller="hpController" ng-cloak class="ng-cloak" class="container-fluid">
 
+ <nav class="navbar navbar-default">
     <div class="navbar-header" >
-
       <a class="navbar-brand" href="#"> Parameswara Reddy </a>
+    </div> <!-- Navbar Header -->
       <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBar">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar bar1"></span>
@@ -24,16 +25,16 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navBar">
-        <nav>
-          <ul>
-            <li><a href="#/">Home</a></li>
+          <ul class="nav navbar-nav">
+            <li class="active"> <a href="#/">Home</a></li>
+            <li><a href="#/blog">Blog</a></li>
             <li><a href="#/about">About us</a></li>
           </ul>
-        </nav>
+        
       </div>
-    </div> <!-- Navbar Header -->
+    </nav>
 
-    
+
 
     <div class="container-fluid">
       <div class="row">
